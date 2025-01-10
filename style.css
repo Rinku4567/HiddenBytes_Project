@@ -1,0 +1,109 @@
+.head{
+    text-align: center;
+}
+.input,.output{
+    text-align: center;
+    margin: 0px 0px 0px 435px;
+}
+.button{
+    margin: 0px 0px 0px 520px;
+    padding: 5px 20px 5px 20px;
+    border-radius: 10px;
+}
+.hidden {
+    display: none;
+}
+
+.download{
+    margin: 0px 0px 0px 520px;
+}
+
+body{
+	background-color:rgb(249, 252, 252);
+	font-family: 'Baloo Bhaijaan 2', cursive;
+}
+		
+nav li a {
+font-family: 'Baloo Bhaijaan 2', cursive;
+}
+h4{
+font-family: 'Baloo Bhaijaan 2', cursive;
+}
+
+.labelFiles{
+    margin: 0px 0px 0px 340px;
+}
+.originalImage {
+    height: 300px;
+    width: 300px;
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
+    margin-left: 20px;
+    margin-right: 20px;
+    border: #bac4ce00 solid;
+    background-color: rgba(127, 255, 212, 0);
+}
+.imageCanvas {
+    background-color: aliceblue;
+}
+canvas{
+    width: 300px;
+    height: 300px;
+}
+.result {
+    display: none;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.cols{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+@media screen and (max-width: 650px) {
+    .result{
+        /* display: flex; */
+        flex-direction: column;
+    }
+}
+/* img{
+    width: 300px;
+    height: 300px;
+} */
+.options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+button{
+    margin:10px;
+}
+img{
+    height: 300px;
+    width: 300px;
+}
+.data-extracted {
+    /* display: flex; */
+    /* display: flex; */
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between	;
+    
+}
+.logo{
+    height: 80px;
+    width: 100px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding:1px 450px;
+}
+	
